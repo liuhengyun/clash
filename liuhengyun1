@@ -9048,4 +9048,4 @@ rules：
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼
+ - MATCH,🐟 漏网之
