@@ -9047,5 +9047,3 @@ rules：
  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🌍 国外媒体
- - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之
