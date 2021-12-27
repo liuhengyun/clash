@@ -9,6 +9,26 @@ proxies:
 - {"name":Ytb:随缘分享_2,"server":"165.154.229.22","type":"vmess","country":"🇨🇦CA","port":80,"uuid":"fbf53107-1b42-3da5-a77d-6ad22544c0e9","alterId":2,"cipher":"auto","network":"ws","ws-path":"/v2ray","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 - {"name":Ytb:随缘分享_3,"server":"ff5.uuv2.co.uk","type":"vmess","country":"🇨🇦CA","port":80,"uuid":"fbf53107-1b42-3da5-a77d-6ad22544c0e9","alterId":2,"cipher":"auto","network":"ws","ws-path":"/v2ray","servername":"t.me/vpnhat","ws-headers":{"HOST":"t.me/vpnhat"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 - {"name":Ytb:随缘分享_4,"server":"192.186.129.66","type":"vmess","country":"🇨🇦CA","port":443,"uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","network":"ws","ws-path":"/ws","servername":"usa-buffalo.lvuft.com","ws-headers":{"HOST":"usa-buffalo.lvuft.com"},"http-opts":{},"h2-opts":{},"tls":true,"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_5,"server":"a83679f.th.cloudflare.systems","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_6,"server":"c27821f.ha.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/c27821f.fm.apple.com:16708","servername":"c27821f.ha.gladns.com","ws-headers":{"HOST":"c27821f.ha.gladns.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_7,:"d0a8692.hb.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"api.qq.com","ws-headers":{"HOST":"api.qq.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_8,"server":"d0a8692.rf.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"rx.moss.network","ws-headers":{"HOST":"rx.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_9,"server":"d0a8692.t1.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"trump.moss.network","ws-headers":{"HOST":"trump.moss.network"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_10,"server":"ff5c0fb.rb.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/ff5c0fb.fm.icloud.com:30513","servername":"icloud.com","ws-headers":{"HOST":"icloud.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_11,"server":"d0a8692.he.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"stmp.163.com","ws-headers":{"HOST":"stmp.163.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_12,"server":"ff5c0fb.rf.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/ff5c0fb.fm.icloud.com:30513","servername":"icloud.com","ws-headers":{"HOST":"icloud.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_13,"server":"ff5c0fb.rc.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/ff5c0fb.fm.icloud.com:30513","servername":"icloud.com","ws-headers":{"HOST":"icloud.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_14,"server":"ff5c0fb.hf.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/ff5c0fb.fm.apple.com:30513","servername":"baidu.com","ws-headers":{"HOST":"baidu.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_15,"server":"ff5c0fb.re.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":0,"cipher":"auto","network":"ws","ws-path":"/s/ff5c0fb.fm.icloud.com:30513","servername":"icloud.com","ws-headers":{"HOST":"icloud.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_16,"server":"a83679f.he.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_17,"server":"d0a8692.hd.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/s/d0a8692.fm.apple.com:32667","servername":"api.apple.com","ws-headers":{"HOST":"api.apple.com"},"http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_18,"server":"a83679f.mb.cloudflare.systems","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_19,"server":"a83679f.ts.cloudflare.systems","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_20,"server":"a83679f.rd.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_21,"server":"a83679f.tt.cloudflare.systems","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_22,"server":"a83679f.rb.gladns.com","type":"vmess","country":"🇯🇵JP","port":80,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_23,"server":"a83679f.t3.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
+- {"name":Ytb:随缘分享_24,"server":"a83679f.hc.gladns.com","type":"vmess","country":"🇯🇵JP","port":3306,"uuid":"57e0cb4d-eae5-48ec-8091-149dc2b309e0","alterId":32,"cipher":"auto","network":"ws","ws-path":"/t","http-opts":{},"h2-opts":{},"skip-cert-verify":true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -18,7 +38,26 @@ proxy-groups:
       - Ytb:随缘分享_1
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
-      - Ytb:随缘分享_4 
+      - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,6 +67,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -38,6 +96,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -60,6 +137,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -68,6 +164,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -78,6 +193,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: 📲 电报信息
     type: select
     proxies:
@@ -87,6 +221,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -97,6 +250,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,6 +288,25 @@ proxy-groups:
       - Ytb:随缘分享_2
       - Ytb:随缘分享_3
       - Ytb:随缘分享_4
+      - Ytb:随缘分享_5
+      - Ytb:随缘分享_6
+      - Ytb:随缘分享_7
+      - Ytb:随缘分享_9
+      - Ytb:随缘分享_10
+      - Ytb:随缘分享_11
+      - Ytb:随缘分享_12
+      - Ytb:随缘分享_13
+      - Ytb:随缘分享_14
+      - Ytb:随缘分享_15
+      - Ytb:随缘分享_16
+      - Ytb:随缘分享_17
+      - Ytb:随缘分享_18
+      - Ytb:随缘分享_19
+      - Ytb:随缘分享_20
+      - Ytb:随缘分享_21
+      - Ytb:随缘分享_22
+      - Ytb:随缘分享_23
+      - Ytb:随缘分享_24
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
