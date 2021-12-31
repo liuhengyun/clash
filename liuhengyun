@@ -5,143 +5,95 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: AE_01, server: 217.138.193.6, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_02, server: 217.138.193.10, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_03, server: 217.138.193.6, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_04, server: 217.138.193.10, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_05, server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_06, server: 217.138.193.10, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_07, server: 217.138.193.10, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_08, server: 217.138.193.10, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_09, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_10, server: 217.138.193.10, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_11, server: 217.138.193.10, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_12, server: 217.138.193.10, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_13, server: 217.138.193.6, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_14, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_15, server: 217.138.193.6, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_16, server: 217.138.193.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: Relay_🇦🇹AT-🇦🇹AT_17, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
-  - {name: AU_18, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU_19, server: 172.105.171.80, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: AU_20, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AU_21, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AU_22, server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9, udp: true}
-  - {name: AU_23, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_24, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AU_25, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: AU_26, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AU_27, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AU_28, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_29, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: AE_05, server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_09, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_16, server: 217.138.193.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: AU_30, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: AU_29, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: AU_24, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AE_06, server: 217.138.193.10, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_14, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AU_26, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: AU_28, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: AU_18, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: AE_07, server: 217.138.193.10, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_13, server: 217.138.193.6, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AU_27, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: AE_04, server: 217.138.193.10, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AU_25, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -160,36 +112,24 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,107 +140,71 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -316,36 +220,24 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - AE_01
-      - AE_02
-      - AE_03
-      - AE_04
-      - AE_05
-      - AE_06
-      - AE_07
-      - AE_08
-      - AE_09
-      - AE_10
-      - AE_11
-      - AE_12
-      - AE_13
-      - AE_14
-      - AE_15
-      - AE_16
       - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_18
-      - AU_19
       - AU_20
-      - AU_21
-      - AU_22
-      - AU_23
-      - AU_24
-      - AU_25
-      - AU_26
-      - AU_27
-      - AU_28
-      - AU_29
+      - AE_05
+      - AE_09
+      - AE_16
       - AU_30
+      - AU_29
+      - AU_24
+      - AE_06
+      - AE_14
+      - AU_26
+      - AU_28
+      - AU_18
+      - AE_07
+      - AE_13
+      - AU_27
+      - AE_04
+      - AU_25
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
