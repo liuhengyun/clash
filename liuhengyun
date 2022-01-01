@@ -5,95 +5,415 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_🇦🇹AT-🇦🇹AT_17, server: 37.120.212.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2XtmwMEgsVJYKWF4VjkL, udp: true}
-  - {name: AU_20, server: 172.105.180.227, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: AE_05, server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_09, server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_16, server: 217.138.193.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AU_30, server: 172.105.180.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_29, server: 172.105.180.227, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AU_24, server: 172.105.180.227, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: AE_06, server: 217.138.193.10, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_14, server: 217.138.193.6, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AU_26, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: AU_28, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: AU_18, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: AE_07, server: 217.138.193.10, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AE_13, server: 217.138.193.6, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AU_27, server: 172.105.180.227, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: AE_04, server: 217.138.193.10, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: AU_25, server: 172.105.180.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AE_01, server: 217.138.193.6, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_02, server: 217.138.193.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_05, server: 217.138.193.6, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_07, server: 217.138.193.10, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_13, server: 217.138.193.10, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_14, server: 217.138.193.10, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AE_15, server: 217.138.193.10, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: AU_18, server: 172.105.180.227, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_19, server: 172.105.177.120, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: AU_20, server: 172.105.177.120, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: AU_26, server: 172.105.180.227, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: AU_27, server: 172.105.180.227, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_28, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: AU_29, server: 172.105.180.227, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: AU_30, server: 172.105.171.80, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: AU_31, server: 43.154.157.216, port: 60151, type: ss, cipher: chacha20-ietf-poly1305, password: dunkpzGG9FM9, udp: true}
+  - {name: AU_32, server: 172.105.180.227, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: AU_33, server: 172.105.180.227, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: AU_35, server: 172.105.180.227, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: AU_37, server: 172.105.180.227, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: AU_41, server: 172.105.180.227, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: AU_42, server: 172.105.180.227, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: AU_45, server: 172.105.180.227, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: AU_46, server: 172.105.180.227, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Pool_🇧🇦BA_49, server: 185.212.111.59, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: Pool_🇧🇦BA_50, server: 185.99.3.102, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: Pool_🇧🇦BA_53, server: 185.99.3.207, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_54, server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: Pool_🇧🇦BA_55, server: 185.212.111.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_56, server: 185.99.3.12, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: Pool_🇧🇦BA_57, server: 185.99.3.214, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: Pool_🇧🇦BA_59, server: 185.99.3.108, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: Pool_🇧🇦BA_60, server: 185.99.3.212, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_61, server: 185.99.3.108, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: Pool_🇧🇦BA_64, server: 185.99.3.214, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_65, server: 185.99.3.108, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: Pool_🇧🇦BA_66, server: 185.99.3.12, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: Pool_🇧🇦BA_67, server: 185.99.3.207, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
+  - {name: Pool_🇧🇦BA_68, server: 185.99.3.108, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: Pool_🇧🇦BA_71, server: 185.99.3.207, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: Pool_🇧🇦BA_73, server: 185.99.3.108, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: Pool_🇧🇦BA_77, server: 185.99.3.108, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: Pool_🇧🇦BA_78, server: 185.99.3.108, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
+  - {name: Pool_🇧🇦BA_79, server: 185.99.3.108, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: Pool_🇧🇦BA_82, server: 185.99.3.212, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: Pool_🇧🇦BA_84, server: 185.99.3.12, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_85, server: 185.99.3.207, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: Pool_🇧🇦BA_87, server: 185.99.3.12, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: Pool_🇧🇦BA_88, server: 185.99.3.108, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: Pool_🇧🇦BA_89, server: 185.99.3.108, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: Pool_🇧🇦BA_91, server: 185.99.3.102, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: Pool_🇧🇦BA_93, server: 185.212.111.59, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: Pool_🇧🇦BA_95, server: 185.99.3.108, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: Pool_🇧🇦BA_96, server: 185.99.3.108, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: Pool_🇧🇦BA_98, server: 185.99.3.108, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: Pool_🇧🇦BA_99, server: 185.99.3.7, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: Pool_🇧🇦BA_101, server: 185.99.3.7, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
+  - {name: Pool_🇧🇦BA_105, server: 185.99.3.102, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
+  - {name: Pool_🇧🇦BA_106, server: 185.99.3.108, port: 42185, type: ss, cipher: aes-256-gcm, password: FaTG4zALZru72gxjgSHQ7Jdh, udp: true}
+  - {name: Pool_🇧🇦BA_107, server: 185.99.3.207, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: Pool_🇧🇦BA_109, server: 185.99.3.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: Pool_🇧🇦BA_112, server: 185.99.3.108, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: Pool_🇧🇦BA_113, server: 185.99.3.108, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: BE_114, server: 196.196.156.122, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_115, server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_116, server: 193.9.114.34, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_118, server: 193.9.114.34, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_119, server: 193.9.114.34, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_120, server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_121, server: 196.196.156.106, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BE_122, server: 193.9.114.34, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: BR_126, server: 177.54.150.39, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA_127, server: 198.57.27.233, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA_129, server: 198.57.27.233, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_130, server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: CA_131, server: 198.57.27.191, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_134, server: 198.57.27.191, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_135, server: 198.57.27.229, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CA_137, server: 198.57.27.152, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CA_139, server: 51.79.178.17, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CA_140, server: 51.79.161.80, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: CA_141, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！), server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 美国(Youtube频道：工具大师！), server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！), server: 193.203.202.166, port: 4040, type: ss, cipher: chacha20-ietf-poly1305, password: c4iarZNgAOEhEsLp, udp: true}
+  - {name: US(Youtube频道：工具大师！) 4, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube频道：工具大师！) 5, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US美国(Youtube频道：工具大师！), server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube频道：工具大师！) 8, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 马来西亚 🇲🇾(Youtube频道：工具大师！), server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: US(Youtube频道：工具大师！) 11, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO(Youtube频道：工具大师！), server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US(Youtube频道：工具大师！) 14, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: NO(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: SG(Youtube频道：工具大师！) 3, server: 217.138.222.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: 挪威(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 5, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -112,24 +432,104 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -140,71 +540,311 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -220,24 +860,104 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_🇦🇹AT-🇦🇹AT_17
-      - AU_20
+      - AE_01
+      - AE_02
       - AE_05
-      - AE_09
-      - AE_16
-      - AU_30
-      - AU_29
-      - AU_24
-      - AE_06
-      - AE_14
-      - AU_26
-      - AU_28
-      - AU_18
       - AE_07
       - AE_13
+      - AE_14
+      - AE_15
+      - AU_18
+      - AU_19
+      - AU_20
+      - AU_26
       - AU_27
-      - AE_04
-      - AU_25
+      - AU_28
+      - AU_29
+      - AU_30
+      - AU_31
+      - AU_32
+      - AU_33
+      - AU_35
+      - AU_37
+      - AU_41
+      - AU_42
+      - AU_45
+      - AU_46
+      - Pool_🇧🇦BA_49
+      - Pool_🇧🇦BA_50
+      - Pool_🇧🇦BA_53
+      - Pool_🇧🇦BA_54
+      - Pool_🇧🇦BA_55
+      - Pool_🇧🇦BA_56
+      - Pool_🇧🇦BA_57
+      - Pool_🇧🇦BA_59
+      - Pool_🇧🇦BA_60
+      - Pool_🇧🇦BA_61
+      - Pool_🇧🇦BA_64
+      - Pool_🇧🇦BA_65
+      - Pool_🇧🇦BA_66
+      - Pool_🇧🇦BA_67
+      - Pool_🇧🇦BA_68
+      - Pool_🇧🇦BA_71
+      - Pool_🇧🇦BA_73
+      - Pool_🇧🇦BA_77
+      - Pool_🇧🇦BA_78
+      - Pool_🇧🇦BA_79
+      - Pool_🇧🇦BA_82
+      - Pool_🇧🇦BA_84
+      - Pool_🇧🇦BA_85
+      - Pool_🇧🇦BA_87
+      - Pool_🇧🇦BA_88
+      - Pool_🇧🇦BA_89
+      - Pool_🇧🇦BA_91
+      - Pool_🇧🇦BA_93
+      - Pool_🇧🇦BA_95
+      - Pool_🇧🇦BA_96
+      - Pool_🇧🇦BA_98
+      - Pool_🇧🇦BA_99
+      - Pool_🇧🇦BA_101
+      - Pool_🇧🇦BA_105
+      - Pool_🇧🇦BA_106
+      - Pool_🇧🇦BA_107
+      - Pool_🇧🇦BA_109
+      - Pool_🇧🇦BA_112
+      - Pool_🇧🇦BA_113
+      - BE_114
+      - BE_115
+      - BE_116
+      - BE_118
+      - BE_119
+      - BE_120
+      - BE_121
+      - BE_122
+      - BR_126
+      - CA_127
+      - CA_129
+      - CA_130
+      - CA_131
+      - CA_134
+      - CA_135
+      - CA_137
+      - CA_139
+      - CA_140
+      - CA_141
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 5
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 8
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 14
+      - NO(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - SG(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
