@@ -87,22 +87,6 @@ proxies:
   - {name: CA_139, server: 51.79.178.17, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: CA_140, server: 51.79.161.80, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
   - {name: CA_141, server: 198.57.27.184, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 德国 🇩🇪(Youtube频道：工具大师！), server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: 美国(Youtube频道：工具大师！), server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！), server: 193.203.202.166, port: 4040, type: ss, cipher: chacha20-ietf-poly1305, password: c4iarZNgAOEhEsLp, udp: true}
-  - {name: US(Youtube频道：工具大师！) 4, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US(Youtube频道：工具大师！) 5, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US美国(Youtube频道：工具大师！), server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US(Youtube频道：工具大师！) 8, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 马来西亚 🇲🇾(Youtube频道：工具大师！), server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
-  - {name: US(Youtube频道：工具大师！) 11, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: NO(Youtube频道：工具大师！), server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US(Youtube频道：工具大师！) 14, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: NO(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: SG(Youtube频道：工具大师！) 3, server: 217.138.222.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
-  - {name: 挪威(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 5, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -191,22 +175,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -294,22 +262,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -398,22 +350,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -514,22 +450,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -622,22 +542,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -725,22 +629,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -829,22 +717,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -942,22 +814,6 @@ proxy-groups:
       - CA_139
       - CA_140
       - CA_141
-      - 德国 🇩🇪(Youtube频道：工具大师！)
-      - 美国(Youtube频道：工具大师！)
-      - 加拿大 🇨🇦(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 4
-      - US(Youtube频道：工具大师！) 5
-      - US美国(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 8
-      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 11
-      - NO(Youtube频道：工具大师！)
-      - US(Youtube频道：工具大师！) 14
-      - NO(Youtube频道：工具大师！) 2
-      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
-      - SG(Youtube频道：工具大师！) 3
-      - 挪威(Youtube频道：工具大师！) 2
-      - 德国 🇩🇪(Youtube频道：工具大师！) 5
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
