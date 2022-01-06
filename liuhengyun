@@ -6,7 +6,135 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: JP_650, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_344, server: 183.232.56.110, port: 1203, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 114882:LwdYLj, obfs-param: t.me/vpnhat, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_349, server: 112.64.69.187, port: 10004, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大🇨🇦(Youtube频道：工具大师！), server: 198.57.27.218, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 欧洲(Youtube频道：工具大师！), server: 145.239.1.137, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 欧洲(Youtube频道：工具大师！) 2, server: 62.210.209.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(Youtube频道：工具大师！) 3, server: 172.105.35.61, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: HK(Youtube频道：工具大师！), server: gzcm.rokishi.cyou, port: 20001, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 2, server: jmcm.rokishi.cyou, port: 10009, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 3, server: jmcm.rokishi.cyou, port: 10054, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 4, server: jmcm.rokishi.cyou, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 5, server: jmcm.rokishi.cyou, port: 10008, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 6, server: jmcm.rokishi.cyou, port: 10056, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 7, server: azhk.relay.qchwnd.moe, port: 44601, type: trojan, password: 26423179-3f44-4515-a234-97d8f28dbeeb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 8, server: azhk.relay.qchwnd.moe, port: 44605, type: trojan, password: 26423179-3f44-4515-a234-97d8f28dbeeb, sni: azhk.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 9, server: jmcm.rokishi.cyou, port: 10003, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 10, server: jmcm.rokishi.cyou, port: 10050, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 11, server: newgy.jidan666.com, port: 23034, type: trojan, password: 26423179-3f44-4515-a234-97d8f28dbeeb, sni: newgy.jidan666.com, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 12, server: jmcm.rokishi.cyou, port: 10055, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 13, server: gzcm.rokishi.cyou, port: 20006, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 14, server: hzcm.rokishi.cyou, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 15, server: gzcm.rokishi.cyou, port: 20038, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 16, server: jmcm.rokishi.cyou, port: 10073, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 17, server: jmcm.rokishi.cyou, port: 10001, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 18, server: jmcm.rokishi.cyou, port: 10093, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 19, server: jmcm.rokishi.cyou, port: 10058, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 20, server: gzcm.rokishi.cyou, port: 20012, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 21, server: jmcm.rokishi.cyou, port: 10068, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 22, server: jmcm.rokishi.cyou, port: 10000, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: US(Youtube频道：工具大师！), server: 134.209.96.184, port: 36450, type: ss, cipher: chacha20-ietf-poly1305, password: AXy2RnSRP2iBNkH4, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 23, server: jmcm.rokishi.cyou, port: 10097, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 24, server: gzcm.rokishi.cyou, port: 20005, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 25, server: jmcm.rokishi.cyou, port: 10002, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: US(Youtube频道：工具大师！) 2, server: 169.57.35.97, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 26, server: gzcm.rokishi.cyou, port: 20010, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 27, server: jmcm.rokishi.cyou, port: 10033, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 28, server: hzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 29, server: hzcm.rokishi.cyou, port: 20007, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 30, server: gzcm.rokishi.cyou, port: 20004, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 31, server: jmcm.rokishi.cyou, port: 10060, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 32, server: jmcm.rokishi.cyou, port: 10082, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: 澳大利亚 🇦🇺(Youtube频道：工具大师！), server: 46.102.153.106, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 33, server: jmcm.rokishi.cyou, port: 10031, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 34, server: gzcm.rokishi.cyou, port: 20034, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！), server: 193.108.118.2, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 35, server: jmcm.rokishi.cyou, port: 10037, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 36, server: gzcm.rokishi.cyou, port: 20009, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 37, server: jmcm.rokishi.cyou, port: 10046, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 38, server: gzcm.rokishi.cyou, port: 20013, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 39, server: jmcm.rokishi.cyou, port: 10089, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 40, server: jmcm.rokishi.cyou, port: 10087, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 41, server: jmcm.rokishi.cyou, port: 10059, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 42, server: jmcm.rokishi.cyou, port: 10085, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: TW(Youtube频道：工具大师！), server: 139.99.62.207, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 43, server: jmcm.rokishi.cyou, port: 10042, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 44, server: gzcm.rokishi.cyou, port: 20025, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 45, server: gzcm.rokishi.cyou, port: 20023, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 46, server: gzcm.rokishi.cyou, port: 20037, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 47, server: gzcm.rokishi.cyou, port: 20030, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: 美国(Youtube频道：工具大师！), server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！), server: 193.203.202.166, port: 4040, type: ss, cipher: chacha20-ietf-poly1305, password: c4iarZNgAOEhEsLp, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 48, server: jmcm.rokishi.cyou, port: 10080, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 49, server: jmcm.rokishi.cyou, port: 10094, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: TW(Youtube频道：工具大师！) 2, server: 139.99.62.207, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube频道：工具大师！) 3, server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 50, server: gzcm.rokishi.cyou, port: 20008, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: US(Youtube频道：工具大师！) 4, server: 38.75.136.93, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 51, server: gzcm.rokishi.cyou, port: 20018, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 52, server: 211.99.96.40, port: 11316, type: ss, cipher: aes-256-gcm, password: gTVvCY, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 53, server: gzcm.rokishi.cyou, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: US(Youtube频道：工具大师！) 5, server: 167.88.62.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube频道：工具大师！) 6, server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP, udp: true}
+  - {name: US美国(Youtube频道：工具大师！), server: 172.99.190.87, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube频道：工具大师！) 7, server: 172.99.190.87, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 54, server: gzcm.rokishi.cyou, port: 20036, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: US(Youtube频道：工具大师！) 8, server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大(Youtube频道：工具大师！), server: 198.57.27.218, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube频道：工具大师！) 9, server: 172.99.190.87, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA(Youtube频道：工具大师！), server: t3.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t3.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 55, server: 58.152.85.196, port: 2808, type: ss, cipher: aes-256-gcm, password: dbbdb5625d0268ef28240da6d67eb4c0, udp: true}
+  - {name: US(Youtube频道：工具大师！) 10, server: 38.75.136.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: SG(Youtube频道：工具大师！), server: 217.138.221.42, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 56, server: jmcm.rokishi.cyou, port: 10095, type: ss, cipher: chacha20-ietf-poly1305, password: de01dbc4-91f0-42f3-a7cf-e67821e55f81, udp: true}
+  - {name: 马来西亚 🇲🇾(Youtube频道：工具大师！), server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA, udp: true}
+  - {name: US(Youtube频道：工具大师！) 11, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO(Youtube频道：工具大师！), server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 57, server: 62.141.32.182, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 2, server: 145.239.1.137, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！) 2, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2, server: 172.105.180.227, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！), server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！) 3, server: 198.57.27.218, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube频道：工具大师！) 12, server: 172.99.190.87, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: SG(Youtube频道：工具大师！) 2, server: 217.138.221.42, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw, udp: true}
+  - {name: (Youtube频道：工具大师！), server: 145.239.1.137, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 法国(Youtube频道：工具大师！), server: 145.239.1.137, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: CA(Youtube频道：工具大师！) 2, server: 198.57.27.218, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US(Youtube频道：工具大师！) 13, server: 38.75.136.93, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US(Youtube频道：工具大师！) 14, server: 38.75.136.93, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA(Youtube频道：工具大师！) 3, server: t1.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t1.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 挪威(Youtube频道：工具大师！), server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US(Youtube频道：工具大师！) 15, server: 38.75.136.93, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US(Youtube频道：工具大师！) 16, server: 38.75.136.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 加拿大 🇨🇦(Youtube频道：工具大师！) 4, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: NO(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: (Youtube频道：工具大师！) 2, server: 145.239.1.137, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CA(Youtube频道：工具大师！) 4, server: 198.57.27.218, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US(Youtube频道：工具大师！) 17, server: 37.120.136.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Xd2xnHT8tYkVt5BDk92b, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 4, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: NO(Youtube频道：工具大师！) 3, server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 加拿大🇨🇦(Youtube频道：工具大师！) 2, server: 198.57.27.218, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CA(Youtube频道：工具大师！) 5, server: t4.ssrsub.com, port: 156, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t4.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 3, server: 145.239.1.137, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 5, server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 挪威 🇳🇴(Youtube频道：工具大师！) 6, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 58, server: 120.232.82.190, port: 2008, type: ss, cipher: aes-256-gcm, password: 8e2bb8a49c86c76d7876bb61d44f40d9, udp: true}
+  - {name: RU(Youtube频道：工具大师！), server: t2.ssrsub.com, port: 8443, type: trojan, password: 1de99090-4bd5-4670-9cec-05f55b4c6917, sni: t2.ssrsub.com, skip-cert-verify: true, udp: true}
+  - {name: SG(Youtube频道：工具大师！) 3, server: 217.138.222.138, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: AsLgDbA45KTMXumtzWhf, udp: true}
+  - {name: NO(Youtube频道：工具大师！) 4, server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube频道：工具大师！) 18, server: 38.75.136.93, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 59, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: (Youtube频道：工具大师！) 3, server: 145.239.1.137, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US(Youtube频道：工具大师！) 19, server: 172.99.190.87, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 4, server: 145.239.1.137, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: HK(Youtube频道：工具大师！) 60, server: hk-hkg-shhk-001-tr.cdn.savoy.click, port: 20089, type: trojan, password: nodnqJmXykIChRXUqqodCfhcWhtFglJX, sni: hk-hkg-shhk-001-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
+  - {name: 加拿大🇨🇦(Youtube频道：工具大师！) 3, server: 198.57.27.218, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 挪威(Youtube频道：工具大师！) 2, server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 德国 🇩🇪(Youtube频道：工具大师！) 5, server: 145.239.1.137, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国, server: 38.91.102.86, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 2, server: 38.91.102.86, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: _US_美国 3, server: 38.91.102.86, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
@@ -33,6 +161,7 @@ proxies:
   - {name: _US_美国 21, server: 38.143.66.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国+44, server: 38.91.102.86, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _US_美国 22, server: 38.91.102.86, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: us-sjc-na-v2.cdn.savoy.click, port: 688, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
   - {name: _US_美国 23, server: 169.197.142.39, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: _US_美国 24, server: 169.197.142.39, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
   - {name: _US_美国 25, server: 169.197.142.39, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
@@ -60,6 +189,7 @@ proxies:
   - {name: +|14.45Mb, server: 38.91.102.96, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 45, server: 169.197.142.39, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
   - {name: _US_美国 46, server: 169.197.142.39, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _CN_中国->🇷🇺_RU_俄罗斯联邦, server: ru-led-sh-ru-v2.node.inforun.work, port: 24088, type: vmess, uuid: d42019f2-f144-4189-9caf-419ee54f7cab, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /je5x3pBN1vez3NQudNkB, ws-headers: {Host: cdn.savoy.click}, udp: true}
   - {name: _US_美国 47, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: _US_美国 48, server: 38.143.66.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: _US_美国 49, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
@@ -93,7 +223,135 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -120,6 +378,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -147,6 +406,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -179,7 +439,135 @@ proxy-groups:
     interval: 300
     proxies:
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -206,6 +594,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -233,6 +622,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -266,7 +656,135 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -293,6 +811,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -320,6 +839,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -365,7 +885,135 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -392,6 +1040,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -419,6 +1068,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -456,7 +1106,135 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -483,6 +1261,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -510,6 +1289,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -542,7 +1322,135 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -569,6 +1477,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -596,6 +1505,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -629,7 +1539,135 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -656,6 +1694,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -683,6 +1722,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
@@ -725,7 +1765,135 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - JP_650
+      - Relay_🇨🇳CN-🇹🇼TW_344
       - Relay_🇨🇳CN-🇹🇼TW_349
+      - 加拿大🇨🇦(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！)
+      - 欧洲(Youtube频道：工具大师！) 2
+      - 欧洲(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 5
+      - HK(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 8
+      - HK(Youtube频道：工具大师！) 9
+      - HK(Youtube频道：工具大师！) 10
+      - HK(Youtube频道：工具大师！) 11
+      - HK(Youtube频道：工具大师！) 12
+      - HK(Youtube频道：工具大师！) 13
+      - HK(Youtube频道：工具大师！) 14
+      - HK(Youtube频道：工具大师！) 15
+      - HK(Youtube频道：工具大师！) 16
+      - HK(Youtube频道：工具大师！) 17
+      - HK(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 19
+      - HK(Youtube频道：工具大师！) 20
+      - HK(Youtube频道：工具大师！) 21
+      - HK(Youtube频道：工具大师！) 22
+      - US(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 23
+      - HK(Youtube频道：工具大师！) 24
+      - HK(Youtube频道：工具大师！) 25
+      - US(Youtube频道：工具大师！) 2
+      - HK(Youtube频道：工具大师！) 26
+      - HK(Youtube频道：工具大师！) 27
+      - HK(Youtube频道：工具大师！) 28
+      - HK(Youtube频道：工具大师！) 29
+      - HK(Youtube频道：工具大师！) 30
+      - HK(Youtube频道：工具大师！) 31
+      - HK(Youtube频道：工具大师！) 32
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 33
+      - HK(Youtube频道：工具大师！) 34
+      - 德国 🇩🇪(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 35
+      - HK(Youtube频道：工具大师！) 36
+      - HK(Youtube频道：工具大师！) 37
+      - HK(Youtube频道：工具大师！) 38
+      - HK(Youtube频道：工具大师！) 39
+      - HK(Youtube频道：工具大师！) 40
+      - HK(Youtube频道：工具大师！) 41
+      - HK(Youtube频道：工具大师！) 42
+      - TW(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 43
+      - HK(Youtube频道：工具大师！) 44
+      - HK(Youtube频道：工具大师！) 45
+      - HK(Youtube频道：工具大师！) 46
+      - HK(Youtube频道：工具大师！) 47
+      - 美国(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 48
+      - HK(Youtube频道：工具大师！) 49
+      - TW(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 3
+      - HK(Youtube频道：工具大师！) 50
+      - US(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 51
+      - HK(Youtube频道：工具大师！) 52
+      - HK(Youtube频道：工具大师！) 53
+      - US(Youtube频道：工具大师！) 5
+      - US(Youtube频道：工具大师！) 6
+      - US美国(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 7
+      - HK(Youtube频道：工具大师！) 54
+      - US(Youtube频道：工具大师！) 8
+      - 加拿大(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 9
+      - CA(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 55
+      - US(Youtube频道：工具大师！) 10
+      - SG(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 56
+      - 马来西亚 🇲🇾(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 11
+      - NO(Youtube频道：工具大师！)
+      - HK(Youtube频道：工具大师！) 57
+      - 德国 🇩🇪(Youtube频道：工具大师！) 2
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 2
+      - 澳大利亚 🇦🇺(Youtube频道：工具大师！) 2
+      - 挪威 🇳🇴(Youtube频道：工具大师！)
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 12
+      - SG(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！)
+      - 法国(Youtube频道：工具大师！)
+      - CA(Youtube频道：工具大师！) 2
+      - US(Youtube频道：工具大师！) 13
+      - US(Youtube频道：工具大师！) 14
+      - CA(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！)
+      - US(Youtube频道：工具大师！) 15
+      - US(Youtube频道：工具大师！) 16
+      - 加拿大 🇨🇦(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 2
+      - (Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 4
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 17
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 4
+      - NO(Youtube频道：工具大师！) 3
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 2
+      - CA(Youtube频道：工具大师！) 5
+      - 德国 🇩🇪(Youtube频道：工具大师！) 3
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 5
+      - 挪威 🇳🇴(Youtube频道：工具大师！) 6
+      - HK(Youtube频道：工具大师！) 58
+      - RU(Youtube频道：工具大师！)
+      - SG(Youtube频道：工具大师！) 3
+      - NO(Youtube频道：工具大师！) 4
+      - US(Youtube频道：工具大师！) 18
+      - HK(Youtube频道：工具大师！) 59
+      - (Youtube频道：工具大师！) 3
+      - US(Youtube频道：工具大师！) 19
+      - 德国 🇩🇪(Youtube频道：工具大师！) 4
+      - HK(Youtube频道：工具大师！) 60
+      - 加拿大🇨🇦(Youtube频道：工具大师！) 3
+      - 挪威(Youtube频道：工具大师！) 2
+      - 德国 🇩🇪(Youtube频道：工具大师！) 5
       - _US_美国
       - _US_美国 2
       - _US_美国 3
@@ -752,6 +1920,7 @@ proxy-groups:
       - _US_美国 21
       - _US_美国+44
       - _US_美国 22
+      - _CN_中国->🇺🇸_US_美国
       - _US_美国 23
       - _US_美国 24
       - _US_美国 25
@@ -779,6 +1948,7 @@ proxy-groups:
       - +|14.45Mb
       - _US_美国 45
       - _US_美国 46
+      - _CN_中国->🇷🇺_RU_俄罗斯联邦
       - _US_美国 47
       - _US_美国 48
       - _US_美国 49
